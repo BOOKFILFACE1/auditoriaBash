@@ -1,0 +1,13 @@
+Para realizar una auditoría de SSH con Bash, puede utilizar varias herramientas y técnicas. Algunas opciones incluyen:
+
+Revisar los archivos de configuración de SSH: los archivos de configuración de SSH se encuentran en la carpeta /etc/ssh/. 
+Puede revisar estos archivos para asegurarse de que están configurados de manera segura y que no permiten opciones inseguras.
+
+Revisar el registro de conexiones SSH: el registro de conexiones SSH se encuentra en el archivo /var/log/auth.log. 
+Puede revisar este archivo para ver las conexiones que se han realizado a través de SSH y buscar patrones sospechosos o actividad inusual.
+
+Utilizar herramientas de escaneo: existen herramientas como nmap que pueden escanear el servidor en busca de puertos abiertos y servicios que se estén ejecutando. 
+Esto puede ayudar a detectar posibles vulnerabilidades que podrían explotarse a través de SSH.
+
+Utilizar scripts de auditoría: existen scripts de auditoría que pueden ejecutarse en el servidor para detectar posibles problemas de seguridad
+en la configuración de SSH. Algunos ejemplos incluyen ssh-audit y sslyze.
